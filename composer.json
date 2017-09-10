@@ -1,5 +1,5 @@
 {
-    "name": "laravue/calculator",
+    "name": "laravelvue/calculator",
     "description": "This demo package will do some calculations",
     "type": "composer-plugin",
     "license": "MIT",
