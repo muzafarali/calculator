@@ -1,0 +1,27 @@
+{
+    "name": "laravue/calculator",
+    "description": "This demo package will do some calculations",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muzafar Ali",
+            "email": "muzafar.ibrahim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LaraVueAdmin\\": "app/",
+            "Laravue\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravue\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
