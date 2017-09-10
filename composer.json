@@ -1,7 +1,6 @@
 {
     "name": "laravelvue/calculator",
     "description": "This is my first package for laravel with some math calculations",
-    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
